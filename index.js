@@ -81,3 +81,10 @@ console.log(newtext)
 for(let fruit of arr){
     console.log(fruit, '!')
 }
+
+
+let obj = { a: 20, b: 10, colors: ["red", "yellow", "blue"] };
+let sum = obj['b'] + obj['a']
+let color = obj['colors'] [2]
+console.log(sum)
+console.log(color)
